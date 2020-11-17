@@ -1,3 +1,17 @@
 .idea/
 cmake-build-debug/
-
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+ShamirsSchemeTest
+Testing/
+Untitled Document
+cmake_install.cmake
+googletest-build/
+googletest-download/
+googletest-src/
+lib/
+runUnitTests
+shamir
+shamir.cbp
