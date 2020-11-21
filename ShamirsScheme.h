@@ -29,7 +29,7 @@ namespace ShamirsScheme {
   std::vector<Key> makeSharedKeys(const std::vector<Chunk>& data, size_t minimumKeys, size_t totalKeys) {
     std::random_device random_device;
     std::mt19937 engine{random_device()};
-    std::uniform_int_distribution<CalcT> dist(1, p - 2);
+    std::uniform_int_distribution<CalcT> dist(1, p - 1);
 
     std::vector<Key> keys(totalKeys, Key(data.size()));
     for (size_t i = 1; i <= totalKeys; ++i)
